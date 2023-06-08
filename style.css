@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Lexend+Deca:wght@600&family=Manrope&family=Nosifer&family=Orienta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+:root{
+    --primary-color: #5fbaa7;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #6b5db0;
+}
+
+#genel{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    color: #200f26;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.currency h2{
+    text-align: left;
+    padding: 5px 0;
+}
+
+.bir{
+    padding-bottom: 20px;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.currency input{
+    background-color: transparent;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 5px;
+    border: 2px solid #d5d0d0;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.rate{
+    color: #200f26;
+    margin-top: 20px;
+}
+
+select:focus,
+input:focus,
+button:focus{
+    outline: none;
+}
+
+.swap-rate-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-tutar{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #6366d0;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deger{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #a4a2a2;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
